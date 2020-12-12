@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3beb4088-ec55-4250-8807-0c4f29cca611" name="LegoPI" url="">
+        <fileTransfer rootFolder="/home/ben/Projects/LegoPIv2" accessType="SFTP" host="192.168.1.10" port="22" sshConfigId="0eb5eba2-84e8-4741-a874-ae2b876327fa" sshConfig="ben@192.168.1.10:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

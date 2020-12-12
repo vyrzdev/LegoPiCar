@@ -1,0 +1,13 @@
+[Unit]
+Description=LegoPI service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/ben/Projects/LegoPIv2/run.py
+WorkingDirectory=/home/ben/Projects/LegoPIv2
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
